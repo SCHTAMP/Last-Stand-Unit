@@ -94,7 +94,7 @@ class CfgWeapons {
 		author = "LastWarTeam";
 		scope = 2;
 		scopecurator = 2;
-		displayName = " Void Clone trooper engineer Helmet";
+		displayName = " Void Clone troooper engineer Helmet";
 		hiddenSelectionsTextures[] = {"void_unit\data\void_helmet_eng_co.paa"};
 	};
 	
