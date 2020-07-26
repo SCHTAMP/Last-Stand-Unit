@@ -261,7 +261,7 @@ class CfgWeapons {
 	};
 	
 	class LS_void_assault_uniform : LS_void_arty_uniform {
-		displayName = "Void Clone Troooper Uniform (Attero)";
+		displayName = "Void Clone Trooooper Uniform (Attero)";
 		hiddenSelectionsTextures[] = {"void_unit\data\Void_Armor1_Shturm.paa", "void_unit\data\Void_Armor2_Shturm.paa"};
 		
 		class ItemInfo : ItemInfo {
