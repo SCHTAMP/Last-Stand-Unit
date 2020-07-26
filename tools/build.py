@@ -19,13 +19,13 @@ def mod_time(path):
 
 
 def check_for_changes(addonspath, module):
-    if not os.path.exists(os.path.join(addonspath, "{}{}.pbo".format(PBONAMEPREFIX, module))):
+    if not os.path.exists(os.path.join(addonspath, "{}.pbo".format(module))):
         return True
-    return mod_time(os.path.join(addonspath, module)) > mod_time(os.path.join(addonspath, "{}{}.pbo".format(PBONAMEPREFIX,module)))
+    return mod_time(os.path.join(addonspath, module)) > mod_time(os.path.join(addonspath, "{}.pbo".format(module)))
 
 
 def check_for_obsolete_pbos(addonspath, file):
-    module = file[len(PBONAMEPREFIX):-4]
+    module = file[-4]
     if not os.path.exists(os.path.join(addonspath, module)):
         return True
     return False
@@ -73,7 +73,7 @@ def main():
             subprocess.check_output([
                 "makepbo",
                 "-UP",
-                "-@={}\\{}".format(PREFIX.rstrip("_"), p),
+                "-@={}".format(p),
                 p,
                 "{}.pbo".format(p)
             ], stderr=subprocess.STDOUT)

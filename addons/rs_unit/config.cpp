@@ -6,9 +6,9 @@ class CfgPatches {
 	class RS_Legion {
 		units[] = {"Pilot"};
 		weapons[] = {"RS_Uniform_Pilot"};
+		author = "LastWarTeam";
+		requiredAddons[] = {"SWLB_clones"};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {"SWLB_clones"};
 };
 
 class CfgFactionClasses {

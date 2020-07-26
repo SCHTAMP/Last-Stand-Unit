@@ -6,9 +6,9 @@ class CfgPatches {
 	class ARF_Legion {
 		units[] = {"Reason", "Yamato", "Rabbit", "Anvil", "Rage", "Ytamato", "Xray", "Rick", "Osiris", "Acklay", "Vex", "Foxxy", "Phaeron", "Acklay_1"};
 		weapons[] = {"ARF_helmet_Reason", "ARF_Uniform_Reason", "ARF_Camo_Reason", "ARF_Uniform_Yamato", "ARF_Camo_Yamato", "ARF_HelmetP1_Yamato", "ARF_HelmetP1_Rabbit", "ARF_Uniform_Rabbit", "ARF_Uniform_Rage", "ARF_HelmetP1_Rage", "ARF_Helmet_Ytamato", "ARF_Uniform_Ytamato", "ARF_Helmet_Xray", "ARF_Uniform_Xray", "ARF_Helmet_Rick", "ARF_Uniform_Rick", "ARF_Helmet_Osiris", "ARF_Uniform_Osiris", "ARF_Helmet_Phaeron", "ARF_Uniform_Phaeron", "ARF_Helmet_Foxxy", "ARF_Uniform_Foxxy", "ARF_Helmet_Acklay_1", "ARF_Uniform_Acklay_1", "ARF_Helmet_Acklay", "ARF_Uniform_Acklay", "ARF_Helmet_Vex", "ARF_Uniform_Vex"};
+		author = "LastWarTeam";
+		requiredAddons[] = {"SWLB_clones"};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {"SWLB_clones"};
 };
 
 class CfgFactionClasses {

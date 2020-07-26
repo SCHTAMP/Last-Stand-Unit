@@ -6,9 +6,9 @@ class CfgPatches {
 	class ARC_Legion {
 		units[] = {"Black", "Anime", "Forlorn", "Dornan", "Vex1", "Mortem", "78", "Frey", "Spectr", "Fur"};
 		weapons[] = {"LS_ARC_helmet_P1_2_olaf", "LS_ARC_kama_olaf", "ARC_HelmetP2_Vex", "ARC_HelmetP1_Black", "ARC_Uniform_Black", "ARC_Camo_Black", "ARC_HelmetP1_Anime", "ARC_Uniform_Anime", "ARC_HelmetP1_Forlorn", "ARC_Uniform_Forlorn", "ARC_HelmetP1_Dornan", "ARC_Uniform_Dornan", "ARC_HelmetP1_Vex", "ARC_Uniform_Vex", "ARC_HelmetP1_07", "ARC_HelmetP1_Fur", "ARC_Uniform_Fur", "ARC_HelmetP1_Mortem", "ARC_Uniform_Mortem", "ARC_HelmetP1_78", "ARC_Uniform_78", "ARC_HelmetP1_Frey", "ARC_Uniform_Frey", "ARC_HelmetP1_Spectr", "ARC_Uniform_Spectr"};
+		author = "LastWarTeam";
+		requiredAddons[] = {SWLB_CEE, "SWLB_clones"};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {SWLB_CEE, "SWLB_clones"};
 };
 
 class CfgFactionClasses {

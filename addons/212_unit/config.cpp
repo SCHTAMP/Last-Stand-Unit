@@ -6,9 +6,9 @@ class CfgPatches {
 	class 212_Legion {
 		units[] = {"Boil", "Kos", "Nikity", "Scout", "OverLord", "BlackFlame", 212_ARF, "212_Med", 212_AB, 212_AT, 212_ENG};
 		weapons[] = {"212_HelmetP1_Boil", "212_HelmetP1_Kos", "212_Uniform_Kos", "212_HelmetP1_Nikity", "212_Uniform_Nikity", "212_HelmetP1_OverLord", "212_Uniform_OverLord", "212_HelmetP1_Med", "212_HelmetP1_Med_CPL", "212_HelmetP1_Med_MLT", "212_HelmetP1_AB", "212_HelmetP1_AB_CPL", "212_HelmetP1_AB_MLT", "212_HelmetP1_ENG", "212_HelmetP1_ENG_CPL", "212_HelmetP1_ENG_MLT", "212_HelmetP1_Scout", "212_HelmetP1_AT", "212_Helmet_Scout", "212_Helmet_ARF", "212_HelmetP1", "212_Uniform_Scout", "212_Uniform_Med", "212_Uniform_AB", "212_Uniform_AT", "212_Uniform_ENG", "212_Uniform_ARF"};
+		author = "LastWarTeam";
+		requiredAddons[] = {"SWLB_clones"};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {"SWLB_clones"};
 };
 
 class CfgFactionClasses {

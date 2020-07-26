@@ -6,9 +6,9 @@ class CfgPatches {
 	class 501_Legion {
 		units[] = {"Husky", "Glyba", "Liver", "Flin", "Fren", "Dok", "Kid", "Oni", "Olaf", "Grif", "Draxler", "Mali", "Bjorn", "Kira", "Radaga"};
 		weapons[] = {"501_HelmetP1_Echo", "501_Uniform_Husky", "501_HelmetP1_Husky", "501_Uniform_Glyba", "501_HelmetP1_Glyba", "501_Uniform_Liver", "501_HelmetP1_Liver", "501_HelmetP1_Tron", "501_HelmetP1_Fives", "501_HelmetP1_Pilot", "501_HelmetP1_Fren", "501_Uniform_Fren", "501_HelmetP1_Dok", "501_Uniform_Dok", "501_HelmetP1_Radaga", "501_Uniform_Radaga", "501_HelmetP1_Kira", "501_Uniform_Kira", "501_HelmetP1_Bjorn", "501_Uniform_Bjorn", "501_HelmetP1_Mali", "501_Uniform_Mali", "501_HelmetP1_Kid", "501_Uniform_Kid", "501_HelmetP1_Oni", "501_Uniform_Oni", "501_HelmetP1_Olaf", "501_Uniform_Olaf", "501_HelmetP1", "501_Uniform_Grif", "501_HelmetP1_Grif", "501_Uniform_Draxler", "501_HelmetP1_Draxler"};
+		author = "LastWarTeam";
+		requiredAddons[] = {"SWLB_clones"};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {"SWLB_clones"};
 };
 
 class CfgFactionClasses {

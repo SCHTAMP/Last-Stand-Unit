@@ -6,9 +6,9 @@ class CfgPatches {
 	class Zulu_Legion {
 		units[] = {"Sg", "Host", "Ofic", "Eng", "Med", "TR", ARF};
 		weapons[] = {"Zulu_Officer_Visor", "Zulu_Backpack", "Zulu_Backpack_heavy", "Zulu_Backpack_medic", "Zulu_Backpack_RTO", "Zulu_HelmetP1_Sg", "Zulu_Uniform_Sg", "Zulu_HelmetP1_Host", "Zulu_Uniform_Host", "Zulu_HelmetP1_Ofic", "Zulu_Uniform_Ofic", "Zulu_HelmetP1_Eng", "Zulu_Uniform_Eng", "Zulu_HelmetP1_Med", "Zulu_Uniform_Med", "Zulu_HelmetP1_ARF", "Zulu_Uniform_ARF", "Zulu_HelmetP1", "Zulu_Uniform"};
+		author = "LastWarTeam";
+		requiredAddons[] = {"SWLB_clones", "SWLB_equipment", SWLB_CEE};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {"SWLB_clones", "SWLB_equipment", SWLB_CEE};
 };
 
 class CfgFactionClasses {

@@ -6,9 +6,10 @@ class CfgPatches {
 	class 101_Legion {
 		units[] = {"Belgiy", 101, "Doom"};
 		weapons[] = {JP_101, "101_Helmet_Chubakin", "101_HelmetP1", "101_HelmetP1_lieutenant", "101_HelmetP1_Officer", "101_HelmetP1_Doom", "101_Uniform", "101_Uniform_Doom", "101_Backpack", "101_Backpack_heavy", "101_Backpack_medic", "101_Backpack_RTO"};
+		author = "LastWarTeam";
+		requiredAddons[] = {"SWLB_clones", "SWLB_equipment", SWLB_CEE};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {"SWLB_clones", "SWLB_equipment", SWLB_CEE};
+	
 };
 
 class CfgFactionClasses {

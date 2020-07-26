@@ -6,9 +6,9 @@ class CfgPatches {
 	class 104_Legion {
 		units[] = {"Horus"};
 		weapons[] = {"104_HelmetP1_Horus"};
+		author = "LastWarTeam";
+		requiredAddons[] = {"SWLB_clones", "SWLB_equipment", SWLB_CEE};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {"SWLB_clones", "SWLB_equipment", SWLB_CEE};
 };
 
 class CfgFactionClasses {

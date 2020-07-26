@@ -6,9 +6,9 @@ class CfgPatches {
 	class Jetpack {
 		units[] = {};
 		weapons[] = {};
+		author = "LastWarTeam";
+		requiredAddons[] = {"A3_Data_F", "A3_Weapons_F", "A3_Characters_F"};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {"A3_Data_F", "A3_Weapons_F", "A3_Characters_F"};
 };
 
 class CfgFactionClasses {

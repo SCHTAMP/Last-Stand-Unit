@@ -6,9 +6,9 @@ class CfgPatches {
 	class 41_Legion {
 		units[] = {JP_41_1, "41", "Gree"};
 		weapons[] = {"41_Uniform", "41_Uniform_Gree"};
+		author = "LastWarTeam";
+		requiredAddons[] = {"Jet_Unit", "SWLB_clones", "SWLB_equipment", SWLB_CEE};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {"Jet_Unit", "SWLB_clones", "SWLB_equipment", SWLB_CEE};
 };
 
 class CfgFactionClasses {
@@ -24,7 +24,6 @@ class CfgEditorSubcategories {
 };
 
 class CfgWeapons {
-	class H_HelmetO_ViperSP_hex_F;	// External class reference
 	class SWLB_clone_ccVisor;	// External class reference
 	class SWLB_clone_mcVisor;	// External class reference
 	class SWLB_clone_nvg;	// External class reference
@@ -43,9 +42,6 @@ class CfgWeapons {
 	class SWLB_clone_P2_helmet;	// External class reference
 	class SWLB_clone_AB_helmet;	// External class reference
 	class SWLB_clone_P15_helmet;	// External class reference
-	class SDT_Hazard_Helmet;	// External class reference
-	class SDT_stealth_helmet;	// External class reference
-	class Scout_helmet;	// External class reference
 	class SWLB_clone_pilot_P2_helmet;	// External class reference
 	class SWLB_clone_commando_helmet_k1;	// External class reference
 	class SWLB_clone_recon_armor;	// External class reference
@@ -62,13 +58,10 @@ class CfgWeapons {
 	class SWLB_clone_airborne_nco_armor;	// External class reference
 	class SWLB_clone_arc_armor;	// External class reference
 	class SWLB_clone_uniform;	// External class reference
-	class SWLA_BL_Sergeant_Vest;	// External class reference
-	class SWLB_CEE_Fox_Visor;	// External class reference
-	class UniformItem;	// External class reference
-	class HeadgearItem;	// External class reference
-	class SDT_pilot_p1_helmet;	// External class reference
 	class SWLB_P1_Pilot_Helmet;	// External class reference
 	class SWLB_CEE_Hazard_Helmet;	// External class reference
+	class UniformItem;
+	
 	
 	class 41_HelmetP1_Pilot : SWLB_P1_Pilot_Helmet {
 		author = "LastWar Team";

@@ -5,9 +5,10 @@
 class CfgPatches {
 	class 91_Legion {
 		units[] = {"Stanley", "weapons[]={""91_HelmetP1_Stanley""", "91_Uniform_Stanley"};
+		author = "LastWarTeam";
+		requiredAddons[] = {"SWLB_clones"};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {"SWLB_clones"};
+	
 };
 
 class CfgFactionClasses {

@@ -6,9 +6,9 @@ class CfgPatches {
 	class RC_V2 {
 		units[] = {""};
 		weapons[] = {"RC_nvg", "RC_nvg_antenna", "RC_sniper_armor_V2", "RC_tech_armor_V2", "RC_eod_armor_V2", "RC_sl_armor_V2", "RC_basic_armor_v2", "RC_Uniform", "RC_MPStealth_Uniform", "RC_MPRecon_Uniform", "RC_MPMarksman_Uniform", "RC_MPGunner_Uniform", "RC_YayaxCov_Uniform", "RC_YayaxDev_Uniform", "RC_YayaxJind_Uniform", "RC_YayaxYover_Uniform", "RC_AiwhaDikut_Uniform", "RC_AiwhaSarge_Uniform", "RC_AiwhaTyto_Uniform", "RC_AiwhaZag_Uniform", "RC_BravoRam_Uniform", "RC_Bravo2_Uniform", "RC_Bravo3_Uniform", "RC_Bravo4_Uniform", "RC_Omega_Uniform", "RC_DeltaFixer_Uniform", "RC_DeltaScorch_Uniform", "RC_DeltaSev_Uniform", "RC_backpack", "RC_RTO_Backpack", "RC_EOD_Backpack", "RC_Tech_Backpack"};
+		author = "LastWarTeam";
+		requiredAddons[] = {SWLB_CEE, "SWLB_clones"};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {SWLB_CEE, "SWLB_clones"};
 };
 
 class CfgFactionClasses {

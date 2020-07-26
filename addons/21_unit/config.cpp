@@ -6,9 +6,9 @@ class CfgPatches {
 	class 21_Legion {
 		units[] = {"Keller"};
 		weapons[] = {"21_Uniform", "21_HelmetP1_Keller", "21_Uniform_Keller"};
+		author = "LastWarTeam";
+		requiredAddons[] = {"SWLB_clones", "SWLB_equipment", SWLB_CEE};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {"SWLB_clones", "SWLB_equipment", SWLB_CEE};
 };
 
 class CfgFactionClasses {

@@ -4,11 +4,25 @@
 
 class CfgPatches {
 	class Mercenaries {
-		units[] = {"Pilot"};
-		weapons[] = {"RS_Uniform_Pilot"};
+		units[] = {
+			"Merc_bag_Zan",
+			"Zan",
+			"Sharper"
+			};
+		weapons[] = {
+			"Merc_HelmetEx_Zan",
+			"Merc_Armor_Whi_Zan",
+			"Merc_uniform_Zan",
+			"Merc_helmet_Irai",
+			"Merc_Armor_Irai",
+			"Merc_HelmetP1_Sharper",
+			"Merc_Uniform_Sharper",
+			"Merc_Helmet_Zan",
+			"Merc_Armor_Zan"
+			};
+		author = "LastWarTeam";
+		requiredAddons[] = {"SWLB_clones", "SWLB_merc_mando"};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {"SWLB_clones"};
 };
 
 class CfgFactionClasses {

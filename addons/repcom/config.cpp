@@ -5,10 +5,10 @@
 class CfgPatches {
 	class RepCom {
 		units[] = {"Clever", "Forest", "Sand", "Naak", "Aden", "Goran", "Elyrea", "66", "13", "47"};
-		weapons[] = {"RC_Solus_Uniform_Forest", "RC_Solus_Helmet_Forest", "RC_Solus_Uniform_Sand", "RC_Solus_Helmet_Sand", "RC_Alpha1_Uniform", "RC_Alpha2_Uniform", "RC_Alpha_Helmet_1", "RC_Alpha_Helmet_2", "RC_Yivra_nvg_Naak""RC_Yivra_Helmet_Naak", "RC_Yivra_s1_armor_Naak", "RC_Yivra_Uniform_Naak", "RC_Yivra_nvg_Aden""RC_Yivra_Helmet_Aden", "RC_Yivra_s1_armor_Aden", "RC_Yivra_Uniform_Aden", "RC_Yivra_nvg_Goran""RC_Yivra_Helmet_Goran", "RC_Yivra_s1_armor_Goran", "RC_Yivra_Uniform_Goran", "RC_Yivra_Helmet_Elyrea", "RC_Yivra_s1_armor_Elyrea", "RC_Yivra_Uniform_Elyrea", "RC_Helmet_13", "RC_Helmet_66", "RC_Uniform_66", "RC_RTO_Backpack_66", "RC_Helmet_13", "RC_Uniform_13", "RC_RTO_Backpack_13", "RC_Solus_Helmet_47", "RC_Solus_Uniform_47", "RC_Solus_EOD_Backpack_47", "RC_Solus_nvg_47", "RC_Solus_eod_armor_V2"};
+		weapons[] = {"RC_Solus_Uniform_Forest", "RC_Solus_Helmet_Forest", "RC_Solus_Uniform_Sand", "RC_Solus_Helmet_Sand", "RC_Alpha1_Uniform", "RC_Alpha2_Uniform", "RC_Alpha_Helmet_1", "RC_Alpha_Helmet_2", "RC_Yivra_nvg_Naak", "RC_Yivra_Helmet_Naak", "RC_Yivra_s1_armor_Naak", "RC_Yivra_Uniform_Naak", "RC_Yivra_nvg_Aden", "RC_Yivra_Helmet_Aden", "RC_Yivra_s1_armor_Aden", "RC_Yivra_Uniform_Aden", "RC_Yivra_nvg_Goran", "RC_Yivra_Helmet_Goran", "RC_Yivra_s1_armor_Goran", "RC_Yivra_Uniform_Goran", "RC_Yivra_Helmet_Elyrea", "RC_Yivra_s1_armor_Elyrea", "RC_Yivra_Uniform_Elyrea", "RC_Helmet_13", "RC_Helmet_66", "RC_Uniform_66", "RC_RTO_Backpack_66", "RC_Helmet_13", "RC_Uniform_13", "RC_RTO_Backpack_13", "RC_Solus_Helmet_47", "RC_Solus_Uniform_47", "RC_Solus_EOD_Backpack_47", "RC_Solus_nvg_47", "RC_Solus_eod_armor_V2"};
+		author = "LastWarTeam";
+		requiredAddons[] = {SWLB_CEE, "SWLB_clones"};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {SWLB_CEE, "SWLB_clones"};
 };
 
 class CfgFactionClasses {

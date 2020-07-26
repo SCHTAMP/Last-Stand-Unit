@@ -6,9 +6,9 @@ class CfgPatches {
 	class 327_Legion {
 		units[] = {"Ned", "Rook"};
 		weapons[] = {"327_HelmetP1_Ned", "327_Uniform_Ned", "327_HelmetP1_Rook", "327_Uniform_Rook", "327_HelmetP1_ARF"};
+		author = "LastWarTeam";
+		requiredAddons[] = {"SWLB_clones"};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {"SWLB_clones"};
 };
 
 class CfgFactionClasses {

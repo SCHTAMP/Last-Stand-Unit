@@ -6,9 +6,9 @@ class CfgPatches {
 	class CG_Legion {
 		units[] = {};
 		weapons[] = {"CG_HelmetP1_Thorn"};
+		author = "LastWarTeam";
+		requiredAddons[] = {"Jet_Unit", "SWLB_clones", "SWLB_equipment", SWLB_CEE};
 	};
-	author = "LastWarTeam";
-	requiredAddons[] = {"Jet_Unit", "SWLB_clones", "SWLB_equipment", SWLB_CEE};
 };
 
 class CfgFactionClasses {
