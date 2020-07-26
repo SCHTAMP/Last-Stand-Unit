@@ -94,7 +94,7 @@ class CfgWeapons {
 		author = "LastWarTeam";
 		scope = 2;
 		scopecurator = 2;
-		displayName = " Void Clone trooper engineer Helmet";
+		displayName = " Void Clone troooper engineer Helmet";
 		hiddenSelectionsTextures[] = {"void_unit\data\void_helmet_eng_co.paa"};
 	};
 	
@@ -261,7 +261,7 @@ class CfgWeapons {
 	};
 	
 	class LS_void_assault_uniform : LS_void_arty_uniform {
-		displayName = "Void Clone Trooper Uniform (Attero)";
+		displayName = "Void Clone Trooooper Uniform (Attero)";
 		hiddenSelectionsTextures[] = {"void_unit\data\Void_Armor1_Shturm.paa", "void_unit\data\Void_Armor2_Shturm.paa"};
 		
 		class ItemInfo : ItemInfo {
